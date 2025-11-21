@@ -1,0 +1,145 @@
+/* Overall Theme */
+body {
+    background: linear-gradient(135deg, #0056d2, #007bff); /* Dark Blue -> Bright Blue */
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #ffffff;
+    width: 900px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.con {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0056d2; /* Dark Blue */
+    margin-bottom: 25px;
+}
+
+/* Task Header */
+.task-main-head {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+}
+
+.task-part {
+    color: #0056d2; /* Dark Blue */
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.task-subpart {
+    color: #3399ff; /* Lighter Blue */
+    font-weight: 600;
+}
+
+/* Input Box */
+.input-item {
+    width: 100%;
+    border: 2px solid #d7d7dd;
+    border-radius: 12px;
+    padding: 14px;
+    transition: 0.3s;
+}
+
+.input-item:focus {
+    border-color: #0056d2;
+    box-shadow: 0px 0px 10px rgba(0,86,210,0.3);
+}
+
+/* Add Button */
+.button-item {
+    background: #3399ff; /* Medium Blue */
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button-item:hover {
+    background: #0056d2; /* Dark Blue */
+}
+
+/* Task List */
+#todo-item-container {
+    padding: 0;
+    width: 90%;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    background: #e6f1ff; /* Very Light Blue */
+    border-left: 5px solid #3399ff; /* Medium Blue */
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+    margin-left:10px;
+    width:2000px;
+}
+
+.checkbox-item:hover {
+    background: #cce0ff; /* Light Hover Blue */
+}
+
+.input-checkbox {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left:10px;
+
+}
+
+.checkbox-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+/* Delete Icon */
+.delete-item {
+    cursor: pointer;
+    font-size: 19px;
+    color: #e63946; /* Keep red for delete */
+    transition: 0.3s;
+}
+
+.delete-item:hover {
+    color: #b80010;
+}
+
+/* Checked Text Style */
+.checked {
+    text-decoration: line-through;
+    color: #818181;
+}
+
+/* Save Button */
+.button {
+    background-color: #0056d2; /* Dark Blue */
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #3399ff; /* Medium Blue */
+}
